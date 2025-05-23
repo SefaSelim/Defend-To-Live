@@ -15,7 +15,7 @@ public class AxeThrow : NetworkBehaviour
     Vector2 dir;
 
     
-    bool isFlipping = false;
+    public bool isFlipping = false;
     bool afterThrow = false;
 
     private void Awake()
